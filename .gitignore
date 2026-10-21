@@ -1,0 +1,47 @@
+# JavaScript and React Native
+node_modules/
+dist/
+build/
+.expo/
+.expo-shared/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.local
+
+# Environment and local credentials
+.env
+.env.*
+!.env.example
+
+# Android
+.gradle/
+android/.gradle/
+android/local.properties
+android/**/build/
+*.keystore
+*.jks
+
+# iOS and CocoaPods
+ios/Pods/
+ios/build/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+*.mobileprovision
+
+# Tool caches
+.metro-health-check*
+coverage/
+__pycache__/
+*.py[cod]
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
