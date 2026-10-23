@@ -1,7 +1,10 @@
-# JavaScript and React Native
+# Flutter and mobile build outputs
 node_modules/
 dist/
 build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
 .expo/
 .expo-shared/
 *.log
@@ -41,6 +44,7 @@ __pycache__/
 .vscode/*
 !.vscode/extensions.json
 .idea/
+*.iml
 .DS_Store
 Thumbs.db
 *.swp
